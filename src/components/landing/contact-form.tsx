@@ -38,7 +38,7 @@ export function ContactForm() {
     const body = encodeURIComponent(
       `Name: ${values.name}\nEmail: ${values.email}\nOrganization: ${values.organization || 'N/A'}\n\nMessage:\n${values.message}`
     );
-    window.location.href = `mailto:info@masteryhub.co.rw?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:dev.thesemicolon@gmail.com?subject=${subject}&body=${body}`;
   }
 
   return (

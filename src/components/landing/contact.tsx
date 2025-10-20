@@ -19,8 +19,8 @@ export default function ContactSection() {
             <div>
               <h3 className="text-lg font-semibold">Email</h3>
               <p className="text-muted-foreground">Send us an email for inquiries.</p>
-              <a href="mailto:info@masteryhub.co.rw" className="mt-1 block text-primary hover:underline">
-                info@masteryhub.co.rw
+              <a href="mailto:dev.thesemicolon@gmail.com" className="mt-1 block text-primary hover:underline">
+                dev.thesemicolon@gmail.com
               </a>
             </div>
           </div>
@@ -31,7 +31,8 @@ export default function ContactSection() {
             <div>
               <h3 className="text-lg font-semibold">Phone</h3>
               <p className="text-muted-foreground">Give us a call during business hours.</p>
-              <p className="mt-1 text-primary">[Placeholder Phone Number]</p>
+              <p className="mt-1 text-primary">+250 784 832 431</p>
+              <p className="mt-1 text-primary">+250 782 228 575</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
@@ -41,7 +42,7 @@ export default function ContactSection() {
             <div>
               <h3 className="text-lg font-semibold">Location</h3>
               <p className="text-muted-foreground">Visit our office.</p>
-              <p className="mt-1 text-primary">[Placeholder Address, Kigali, Rwanda]</p>
+              <p className="mt-1 text-primary">KG 31 Ave, Kinyinya, Gasabo, Kigali, Rwanda</p>
             </div>
           </div>
         </div>
