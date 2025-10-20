@@ -4,14 +4,14 @@
       "id": "portfolio-1",
       "title": "Ride-Hailing Mobile App",
       "description": "A modern mobile application interface for a local ride-sharing service, focusing on intuitive UX.",
-      "imageUrl": "https://images.unsplash.com/photo-1605335163955-41569739a436?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyaWRlJTIwaGFpbGluZyUyMGFwcHxlbnwwfHx8fDE3MjI1MjQwMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615396899389-21c5d2249332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyaWRlJTIwaGFpbGluZyUyMGFwcHxlbnwwfHx8fDE3MjI1ODk2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mobile app"
     },
     {
       "id": "portfolio-2",
       "title": "Data Analytics Dashboard",
       "description": "A business intelligence dashboard showing key metrics and trends with interactive charts and graphs.",
-      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmR8ZW58MHx8fHwxNzIyMDAxODgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaG9uJTIwZGFzaGJvYXJkfGVufDB8fHx8fDE3MjI1ODk3OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dashboard analytics"
     },
     {
@@ -25,7 +25,7 @@
       "id": "portfolio-4",
       "title": "Artisan E-commerce Platform",
       "description": "An elegant e-commerce website for a fashion brand showcasing local craftsmanship.",
-      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBmYXNoaW9ufGVufDB8fHx8fDE3MjI1MDY0NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBmYXNoaW9ufGVufDB8fHx8fDE3MjI1OTAwMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ecommerce fashion"
     },
     {
@@ -39,7 +39,7 @@
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvcHl3cml0aW5nJTIwdG9vbHxlbnwwfHx8fDE3MjI1MDIzMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvcHl3cml0aW5nJTIwdG9vbHxlbnwwfHx8fDE3MjI1ODk4OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ai writing"
     },
     {
