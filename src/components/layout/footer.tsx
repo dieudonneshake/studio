@@ -22,7 +22,7 @@ export default function Footer() {
             © {new Date().getFullYear()} THE SEMICOLON — A Subsidiary of Mastery Hub of Rwanda.
           </p>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
             {footerLinks.map(link => (
                 <a key={link.label} href={link.href} className="text-sm text-muted-foreground transition-colors hover:text-foreground">
                     {link.label}

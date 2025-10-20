@@ -28,7 +28,7 @@ export default function HeroSection() {
       <AnimatedBackground />
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-foreground">
         <div className="container px-4">
-          <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             We Build Digital Experiences That Matter.
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-foreground/80 md:text-xl">

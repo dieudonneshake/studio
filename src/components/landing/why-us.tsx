@@ -45,7 +45,7 @@ export default function WhyUsSection() {
             Your trusted partner for premium digital solutions.
           </p>
         </div>
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
             <div key={feature.title} className="flex flex-col items-center text-center">
               <div className="mb-4 text-primary">
