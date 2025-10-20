@@ -1,14 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#services", label: "Services" },
+  { href: "#why-us", label: "Why Us" },
+  { href: "#process", label: "Process" },
   { href: "#portfolio", label: "Portfolio" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
@@ -16,13 +19,25 @@ const navLinks = [
 
 export default function Header() {
   const [isSheetOpen, setSheetOpen] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
+    <header className={cn(
+      "sticky top-0 z-50 w-full transition-all duration-300",
+      hasScrolled ? "border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-transparent"
+    )}>
+      <div className="container flex h-20 items-center">
         <div className="mr-4 flex">
           <a href="#home" className="mr-6 flex items-center space-x-2">
-            <span className="font-bold sm:inline-block font-headline tracking-wider text-lg">
+            <span className="font-bold sm:inline-block font-headline tracking-wider text-xl">
               THE SEMICOLON
             </span>
           </a>

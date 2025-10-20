@@ -8,6 +8,7 @@ import TestimonialsSection from '@/components/landing/testimonials';
 import AboutSection from '@/components/landing/about';
 import ContactSection from '@/components/landing/contact';
 import ScrollAnimate from '@/components/ui/scroll-animate';
+import ProcessSection from '@/components/landing/process';
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         </ScrollAnimate>
         <ScrollAnimate>
           <WhyUsSection />
+        </ScrollAnimate>
+        <ScrollAnimate>
+          <ProcessSection />
         </ScrollAnimate>
         <ScrollAnimate>
           <PortfolioSection />
