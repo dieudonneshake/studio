@@ -50,14 +50,19 @@ export function ContactForm() {
         });
         form.reset();
       } else {
-        throw new Error(result.error || "An unknown error occurred.");
+        // Instead of throwing an error, show a descriptive toast.
+        toast({
+          variant: "destructive",
+          title: "Uh oh! Something went wrong.",
+          description: result.error || "Could not send your message. Please try again later.",
+        });
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Failed to send email:", error);
       toast({
         variant: "destructive",
         title: "Uh oh! Something went wrong.",
-        description: "Could not send your message. Please try again later.",
+        description: error.message || "Could not send your message. Please try again later.",
       });
     } finally {
       setIsSubmitting(false);
