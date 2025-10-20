@@ -31,8 +31,8 @@ export default function ContactSection() {
             <div>
               <h3 className="text-lg font-semibold">Phone</h3>
               <p className="text-muted-foreground">Give us a call during business hours.</p>
-              <p className="mt-1 text-primary">+250 784 832 431</p>
-              <p className="mt-1 text-primary">+250 782 228 575</p>
+              <p className="mt-1 text-primary">+250784832431</p>
+              <p className="mt-1 text-primary">+250782228575</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
