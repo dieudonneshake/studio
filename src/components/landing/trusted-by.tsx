@@ -14,11 +14,11 @@ export default function TrustedBySection() {
         <h3 className="mb-12 text-center text-sm font-bold uppercase tracking-wider text-primary">
           Trusted by industry leaders
         </h3>
-        <div className="mx-auto grid max-w-lg grid-cols-1 items-center gap-8 sm:max-w-xl sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+        <div className="flex flex-wrap items-center justify-center gap-8">
           {partners.map((partner) => (
             <div
               key={partner.name}
-              className="flex h-20 items-center justify-center rounded-lg border border-border/70 bg-background/50 p-4 text-center transition-all duration-300 hover:bg-card hover:shadow-lg"
+              className="flex h-20 w-full items-center justify-center rounded-lg border border-border/70 bg-background/50 p-4 text-center transition-all duration-300 hover:bg-card hover:shadow-lg sm:w-60"
             >
               <p className="text-sm font-semibold text-muted-foreground">{partner.name}</p>
             </div>
