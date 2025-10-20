@@ -4,7 +4,7 @@
       "id": "portfolio-1",
       "title": "Ride-Hailing Mobile App",
       "description": "A modern mobile application interface for a local ride-sharing service, focusing on intuitive UX.",
-      "imageUrl": "https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjByaWRlJTIwaGFpbGluZ3xlbnwwfHx8fDE3MjI0NTIzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1570916499343-3a6110c53151?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBzY3JlZW58ZW58MHx8fHwxNzIyNDU4MTEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mobile app"
     },
     {
@@ -39,14 +39,14 @@
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1674027444485-a940e4d12a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjIyMDQ5ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1620712943543-285f7add0e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvcHl3cml0aW5nfGVufDB8fHx8MTc2MDk2Nzc3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ai writing"
     },
     {
       "id": "portfolio-8",
       "title": "Real Estate Marketplace",
       "description": "A comprehensive platform for browsing, listing, and managing real estate properties.",
-      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8MTcyMjAwNDQ0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjIwMDQ0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "real estate"
     }
   ]
