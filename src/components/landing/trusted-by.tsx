@@ -11,7 +11,7 @@ export default function TrustedBySection() {
   return (
     <section id="trusted-by" className="bg-muted/50 py-12 sm:py-16">
       <div className="container">
-        <h3 className="mb-12 text-center text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+        <h3 className="mb-12 text-center text-sm font-bold uppercase tracking-wider text-primary">
           Trusted by industry leaders
         </h3>
         <div className="mx-auto grid max-w-lg grid-cols-1 items-center gap-8 sm:max-w-xl sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
