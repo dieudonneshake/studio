@@ -29,7 +29,7 @@ export default function PortfolioSection() {
               </div>
             </CardHeader>
             <CardContent className="p-6">
-              <CardTitle className="font-headline text-xl">Project Example {index + 1}</CardTitle>
+              <CardTitle className="font-headline text-xl">{project.title || `Project Example ${index + 1}`}</CardTitle>
               <CardDescription className="mt-2 text-base">{project.description}</CardDescription>
             </CardContent>
           </Card>
