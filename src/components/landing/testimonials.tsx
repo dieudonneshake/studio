@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -10,26 +9,22 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const testimonials = [
   {
-    quote: "THE SEMICOLON delivered a product that exceeded our expectations. Their attention to detail and commitment to quality is unparalleled.",
-    name: "Client A",
-    title: "CEO, Tech Corp",
-    avatar: PlaceHolderImages.find(img => img.id === "testimonial-1")
+    quote: "THE SEMICOLON's expertise in educational technology was instrumental in bringing our vision for Aquaventures Academy to life. Their platform is both engaging and robust.",
+    name: "Jean Eric",
+    title: "Founder, Aquaventures Academy",
   },
   {
-    quote: "The design process was collaborative and insightful. We ended up with a user-friendly platform that our customers love.",
-    name: "Client B",
-    title: "Founder, Startup Inc.",
-    avatar: PlaceHolderImages.find(img => img.id === "testimonial-2")
+    quote: "The e-commerce solution they built for bobo250 has significantly boosted our online sales. The team was professional and delivered a high-quality product on time.",
+    name: "DeBonheur",
+    title: "Owner, bobo250 Electronic Shop",
   },
   {
-    quote: "From start to finish, the team was professional, responsive, and incredibly talented. Highly recommended for any digital project.",
-    name: "Client C",
-    title: "Manager, Gov Agency",
-    avatar: PlaceHolderImages.find(img => img.id === "testimonial-3")
+    quote: "Working with THE SEMICOLON to create the digital presence for Kiddo Hub Initiative was a fantastic experience. They understood our mission and created a welcoming and functional website.",
+    name: "Theodomile",
+    title: "Founder, Kiddo Hub Initiative",
   },
 ];
 
@@ -62,10 +57,12 @@ export default function TestimonialsSection() {
                         </blockquote>
                         <div className="mt-6 flex items-center gap-4">
                           <Avatar>
-                            {testimonial.avatar && (
-                                <AvatarImage src={testimonial.avatar.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.avatar.imageHint} />
-                            )}
-                            <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
+                            <AvatarFallback>
+                              {testimonial.name
+                                .split(' ')
+                                .map((n) => n[0])
+                                .join('')}
+                            </AvatarFallback>
                           </Avatar>
                           <div>
                             <p className="font-semibold">{testimonial.name}</p>
