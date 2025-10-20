@@ -19,8 +19,8 @@ export default function ContactSection() {
             <div>
               <h3 className="text-lg font-semibold">Email</h3>
               <p className="text-muted-foreground">Send us an email for inquiries.</p>
-              <a href="mailto:dev.thesemicolon@gmail.com" className="mt-1 block text-primary hover:underline">
-                dev.thesemicolon@gmail.com
+              <a href="mailto:thesemicolon@masteryhub.co.rw" className="mt-1 block text-primary hover:underline">
+                thesemicolon@masteryhub.co.rw
               </a>
             </div>
           </div>
