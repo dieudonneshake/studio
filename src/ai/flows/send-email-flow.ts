@@ -1,14 +1,27 @@
 'use server';
 
 import { ai } from '@/ai/genkit';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 import { z } from 'zod';
 
-const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
+const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS } = process.env;
 
-if (!resend) {
+const transporter =
+  SMTP_HOST && SMTP_PORT && SMTP_USER && SMTP_PASS
+    ? nodemailer.createTransport({
+        host: SMTP_HOST,
+        port: parseInt(SMTP_PORT),
+        secure: parseInt(SMTP_PORT) === 465, // true for 465, false for other ports
+        auth: {
+          user: SMTP_USER,
+          pass: SMTP_PASS,
+        },
+      })
+    : null;
+
+if (!transporter) {
   console.warn(
-    'RESEND_API_KEY is not set. Email sending will not work. Please add it to your environment variables.'
+    'SMTP environment variables are not fully set. Email sending will not work. Please add SMTP_HOST, SMTP_PORT, SMTP_USER, and SMTP_PASS to your environment variables.'
   );
 }
 
@@ -38,7 +51,7 @@ const sendEmailFlow = ai.defineFlow(
     outputSchema: SendEmailOutputSchema,
   },
   async (input) => {
-    if (!resend) {
+    if (!transporter) {
       return {
         success: false,
         error: 'Email service is not configured on the server.',
@@ -46,15 +59,15 @@ const sendEmailFlow = ai.defineFlow(
     }
 
     const { name, email, organization, message } = input;
-    const fromEmail = 'onboarding@resend.dev'; // Resend requires a verified domain, using this for testing.
+    const fromEmail = `"${name}" <${SMTP_USER}>`;
     const toEmail = 'dev.thesemicolon@gmail.com'; 
 
     try {
       // Email to the agency
-      await resend.emails.send({
-        from: `${name} <${fromEmail}>`,
-        to: [toEmail],
-        reply_to: email,
+      await transporter.sendMail({
+        from: fromEmail,
+        to: toEmail,
+        replyTo: email,
         subject: `New Message from ${name} (${organization || 'No Organization'})`,
         html: `
           <p><strong>Name:</strong> ${name}</p>
@@ -67,9 +80,9 @@ const sendEmailFlow = ai.defineFlow(
       });
 
       // Confirmation email to the user
-      await resend.emails.send({
-        from: `THE SEMICOLON <${fromEmail}>`,
-        to: [email],
+      await transporter.sendMail({
+        from: `"THE SEMICOLON" <${SMTP_USER}>`,
+        to: email,
         subject: 'Thank you for your message!',
         html: `
           <p>Hi ${name},</p>
@@ -81,7 +94,7 @@ const sendEmailFlow = ai.defineFlow(
 
       return { success: true };
     } catch (error: any) {
-      console.error('Resend API Error:', error);
+      console.error('Nodemailer Error:', error);
       return {
         success: false,
         error: 'Failed to send email. ' + (error.message || ''),
