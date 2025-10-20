@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 
@@ -51,6 +51,10 @@ export default function Header() {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right">
+                <SheetHeader>
+                  <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                  <SheetDescription className="sr-only">Main navigation links for the website.</SheetDescription>
+                </SheetHeader>
                 <div className="flex flex-col space-y-4 pt-6">
                   <a href="#home" className="mr-6 flex items-center space-x-2" onClick={() => setSheetOpen(false)}>
                     <span className="font-bold font-headline tracking-wider text-lg">
