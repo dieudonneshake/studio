@@ -39,7 +39,7 @@ export default function RootLayout({
           <a href="#contact" className="fixed bottom-6 right-6 z-50">
             <Button size="lg" className="rounded-full shadow-lg shadow-primary/40 flex items-center gap-2">
                 <MessageSquare className="h-5 w-5" />
-                <span className="hidden sm:inline">Request a Service</span>
+                <span className="hidden sm:inline">get yours</span>
             </Button>
           </a>
         </ThemeProvider>
