@@ -15,13 +15,17 @@ export default function HeroSection() {
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="#contact">
-              <Button size="lg" className="font-semibold shadow-primary/40 shadow-[0_4px_20px]">
+              <Button size="lg" className="font-semibold shadow-primary/40 shadow-[0_4px_20px] liquid-button">
                 Get a Quote
+                <span className="liquid-blob"></span>
+                <span className="liquid-blob"></span>
               </Button>
             </a>
             <a href="#portfolio">
-              <Button size="lg" variant="outline" className="font-semibold">
+              <Button size="lg" variant="outline" className="font-semibold liquid-button">
                 See Our Work
+                <span className="liquid-blob"></span>
+                <span className="liquid-blob"></span>
               </Button>
             </a>
           </div>

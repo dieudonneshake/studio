@@ -119,3 +119,85 @@
     transform: translate(0, 0);
   }
 }
+
+/* Liquid button styles */
+.liquid-button {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.liquid-button .liquid-blob {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: hsl(var(--primary));
+  border-radius: 50%;
+  filter: blur(20px);
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.liquid-button .liquid-blob:nth-child(1) {
+  top: -50px;
+  left: -50px;
+  transform: translate(-150%, -150%);
+}
+
+.liquid-button .liquid-blob:nth-child(2) {
+  bottom: -50px;
+  right: -50px;
+  transform: translate(150%, 150%);
+}
+
+.liquid-button:hover {
+  color: hsl(var(--primary-foreground));
+}
+
+.liquid-button:hover .liquid-blob {
+  transform: translate(0, 0);
+}
+
+/* Animated background blobs */
+@keyframes blob-move {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30vw, -15vh) scale(1.2);
+  }
+  66% {
+    transform: translate(-20vw, 20vh) scale(0.9);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.blob {
+  position: absolute;
+  background: hsl(var(--primary) / 0.15);
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: -1;
+  animation: blob-move 25s infinite ease;
+}
+
+.blob-1 {
+  width: 400px;
+  height: 400px;
+  top: 10vh;
+  left: 10vw;
+  animation-duration: 25s;
+}
+
+.blob-2 {
+  width: 300px;
+  height: 300px;
+  bottom: 5vh;
+  right: 20vw;
+  animation-duration: 30s;
+  animation-delay: -10s;
+}

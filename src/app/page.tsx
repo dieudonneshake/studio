@@ -10,22 +10,29 @@ import ContactSection from '@/components/landing/contact';
 import ScrollAnimate from '@/components/ui/scroll-animate';
 import ProcessSection from '@/components/landing/process';
 import TechStackSection from '@/components/landing/tech-stack';
+import { AnimatedBlobs } from '@/components/landing/animated-blobs';
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
       <main className="flex-1">
-        <HeroSection />
-        <ScrollAnimate>
-          <ServicesSection />
-        </ScrollAnimate>
-        <ScrollAnimate>
-          <WhyUsSection />
-        </ScrollAnimate>
-        <ScrollAnimate>
-          <ProcessSection />
-        </ScrollAnimate>
+        <div className="relative">
+          <AnimatedBlobs />
+          <HeroSection />
+          <ScrollAnimate>
+            <ServicesSection />
+          </ScrollAnimate>
+        </div>
+        <div className="relative">
+          <AnimatedBlobs />
+          <ScrollAnimate>
+            <WhyUsSection />
+          </ScrollAnimate>
+          <ScrollAnimate>
+            <ProcessSection />
+          </ScrollAnimate>
+        </div>
         <ScrollAnimate>
           <TechStackSection />
         </ScrollAnimate>
