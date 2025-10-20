@@ -3,6 +3,8 @@ import { Inter, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
+import { Button } from '@/components/ui/button';
+import { MessageSquare } from 'lucide-react';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const spaceGrotesk = Space_Grotesk({
@@ -34,6 +36,12 @@ export default function RootLayout({
         <ThemeProvider>
           {children}
           <Toaster />
+          <a href="#contact" className="fixed bottom-6 right-6 z-50">
+            <Button size="lg" className="rounded-full shadow-lg shadow-primary/40 flex items-center gap-2">
+                <MessageSquare className="h-5 w-5" />
+                <span className="hidden sm:inline">Request a Service</span>
+            </Button>
+          </a>
         </ThemeProvider>
       </body>
     </html>
