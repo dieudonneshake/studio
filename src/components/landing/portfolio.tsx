@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const portfolioProjects = PlaceHolderImages.filter(img => img.id.startsWith("portfolio-"));
@@ -15,23 +15,18 @@ export default function PortfolioSection() {
       </div>
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {portfolioProjects.map((project) => (
-          <Card key={project.id} className="overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border/60">
-            <CardHeader className="p-0">
-              <div className="overflow-hidden">
-                <Image
-                  src={project.imageUrl}
-                  alt={project.description}
-                  width={600}
-                  height={400}
-                  data-ai-hint={project.imageHint}
-                  className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-            </CardHeader>
+          <Card key={project.id} className="flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border/60">
             <CardContent className="p-6">
               <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
               <CardDescription className="mt-2 text-base">{project.description}</CardDescription>
             </CardContent>
+            <div className="p-6 pt-0">
+                <a href="#contact">
+                    <Button className="w-full">
+                        Request Yours
+                    </Button>
+                </a>
+            </div>
           </Card>
         ))}
       </div>
