@@ -22,8 +22,10 @@ export default function PortfolioSection() {
             </CardContent>
             <div className="p-6 pt-0">
                 <a href="#contact">
-                    <Button className="w-full">
+                    <Button variant="outline" className="w-full liquid-button">
                         Request Yours
+                        <span className="liquid-blob"></span>
+                        <span className="liquid-blob"></span>
                     </Button>
                 </a>
             </div>
