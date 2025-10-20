@@ -26,9 +26,11 @@ if (!transporter) {
 }
 
 const SendEmailInputSchema = z.object({
-  name: z.string(),
+  fullName: z.string(),
   email: z.string().email(),
+  phoneNumber: z.string(),
   organization: z.string().optional(),
+  services: z.array(z.string()),
   message: z.string(),
 });
 export type SendEmailInput = z.infer<typeof SendEmailInputSchema>;
@@ -58,8 +60,8 @@ const sendEmailFlow = ai.defineFlow(
       };
     }
 
-    const { name, email, organization, message } = input;
-    const fromEmail = `"${name}" <${SMTP_USER}>`;
+    const { fullName, email, phoneNumber, organization, services, message } = input;
+    const fromEmail = `"${fullName}" <${SMTP_USER}>`;
     const toEmail = 'dev.thesemicolon@gmail.com'; 
 
     try {
@@ -68,11 +70,16 @@ const sendEmailFlow = ai.defineFlow(
         from: fromEmail,
         to: toEmail,
         replyTo: email,
-        subject: `New Message from ${name} (${organization || 'No Organization'})`,
+        subject: `New Project Inquiry from ${fullName}`,
         html: `
-          <p><strong>Name:</strong> ${name}</p>
+          <p><strong>Name:</strong> ${fullName}</p>
           <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Phone:</strong> ${phoneNumber}</p>
           <p><strong>Organization:</strong> ${organization || 'N/A'}</p>
+          <p><strong>Interested Services:</strong></p>
+          <ul>
+            ${services.map(s => `<li>${s.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</li>`).join('')}
+          </ul>
           <hr />
           <p><strong>Message:</strong></p>
           <p>${message.replace(/\n/g, '<br>')}</p>
@@ -85,7 +92,7 @@ const sendEmailFlow = ai.defineFlow(
         to: email,
         subject: 'Thank you for your message!',
         html: `
-          <p>Hi ${name},</p>
+          <p>Hi ${fullName},</p>
           <p>Thank you for contacting us. We have received your message and will get back to you as soon as possible.</p>
           <p>Best regards,</p>
           <p>The THE SEMICOLON Team</p>
