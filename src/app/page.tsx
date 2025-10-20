@@ -8,6 +8,11 @@ import TestimonialsSection from '@/components/landing/testimonials';
 import AboutSection from '@/components/landing/about';
 import ContactSection from '@/components/landing/contact';
 import ScrollAnimate from '@/components/ui/scroll-animate';
+import ProcessSection from '@/components/landing/process';
+import TechStackSection from '@/components/landing/tech-stack';
+import { AnimatedBlobs } from '@/components/landing/animated-blobs';
+import FaqSection from '@/components/landing/faq';
+import TrustedBySection from '@/components/landing/trusted-by';
 
 export default function Home() {
   return (
@@ -15,11 +20,24 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+        <TrustedBySection />
+        <div className="relative">
+          <AnimatedBlobs />
+          <ScrollAnimate>
+            <ServicesSection />
+          </ScrollAnimate>
+        </div>
+        <div className="relative">
+          <AnimatedBlobs />
+          <ScrollAnimate>
+            <WhyUsSection />
+          </ScrollAnimate>
+          <ScrollAnimate>
+            <ProcessSection />
+          </ScrollAnimate>
+        </div>
         <ScrollAnimate>
-          <ServicesSection />
-        </ScrollAnimate>
-        <ScrollAnimate>
-          <WhyUsSection />
+          <TechStackSection />
         </ScrollAnimate>
         <ScrollAnimate>
           <PortfolioSection />
@@ -29,6 +47,9 @@ export default function Home() {
         </ScrollAnimate>
         <ScrollAnimate>
           <AboutSection />
+        </ScrollAnimate>
+        <ScrollAnimate>
+          <FaqSection />
         </ScrollAnimate>
         <ScrollAnimate>
           <ContactSection />

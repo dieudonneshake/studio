@@ -45,7 +45,7 @@ export default function ServicesSection() {
   return (
     <section id="services" className="container">
       <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">Our Services</h2>
+        <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Our Services</h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
           End-to-end technology and design solutions to bring your vision to life.
         </p>

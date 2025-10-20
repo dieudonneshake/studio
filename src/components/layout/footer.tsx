@@ -1,11 +1,5 @@
 import { Github, Twitter, Linkedin } from 'lucide-react';
 
-const socialLinks = [
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Github, href: '#', label: 'Github' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-];
-
 const footerLinks = [
     { href: '#services', label: 'Services' },
     { href: '#portfolio', label: 'Portfolio' },
@@ -28,20 +22,6 @@ export default function Footer() {
                     {link.label}
                 </a>
             ))}
-        </div>
-        <div className="flex items-center gap-4">
-          {socialLinks.map(({ icon: Icon, href, label }) => (
-            <a
-              key={label}
-              href={href}
-              aria-label={label}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <Icon className="h-5 w-5" />
-            </a>
-          ))}
         </div>
       </div>
     </footer>
