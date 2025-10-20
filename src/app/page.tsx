@@ -11,6 +11,7 @@ import ScrollAnimate from '@/components/ui/scroll-animate';
 import ProcessSection from '@/components/landing/process';
 import TechStackSection from '@/components/landing/tech-stack';
 import { AnimatedBlobs } from '@/components/landing/animated-blobs';
+import FaqSection from '@/components/landing/faq';
 
 export default function Home() {
   return (
@@ -44,6 +45,9 @@ export default function Home() {
         </ScrollAnimate>
         <ScrollAnimate>
           <AboutSection />
+        </ScrollAnimate>
+        <ScrollAnimate>
+          <FaqSection />
         </ScrollAnimate>
         <ScrollAnimate>
           <ContactSection />

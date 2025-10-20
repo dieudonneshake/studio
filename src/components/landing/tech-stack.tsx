@@ -6,8 +6,11 @@ import {
   SiNodedotjs,
   SiTypescript,
   SiGooglecloud,
+  SiVercel,
+  SiPostgresql,
+  SiDocker,
+  SiFigma,
 } from 'react-icons/si';
-import { cn } from '@/lib/utils';
 
 const technologies = [
   { name: 'Next.js', icon: SiNextdotjs },
@@ -17,6 +20,10 @@ const technologies = [
   { name: 'Tailwind CSS', icon: SiTailwindcss },
   { name: 'Firebase', icon: SiFirebase },
   { name: 'Google Cloud', icon: SiGooglecloud },
+  { name: 'Vercel', icon: SiVercel },
+  { name: 'PostgreSQL', icon: SiPostgresql },
+  { name: 'Docker', icon: SiDocker },
+  { name: 'Figma', icon: SiFigma },
 ];
 
 const TechStackSection = () => {
