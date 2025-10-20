@@ -18,7 +18,7 @@ export default function TrustedBySection() {
           {partners.map((partner) => (
             <div
               key={partner.name}
-              className="flex h-24 items-center justify-center rounded-lg border border-border/70 bg-background/50 p-4 text-center transition-all duration-300 hover:bg-card hover:shadow-lg"
+              className="flex h-20 items-center justify-center rounded-lg border border-border/70 bg-background/50 p-4 text-center transition-all duration-300 hover:bg-card hover:shadow-lg"
             >
               <p className="text-sm font-semibold text-muted-foreground">{partner.name}</p>
             </div>
