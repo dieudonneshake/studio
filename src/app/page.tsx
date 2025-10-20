@@ -12,6 +12,7 @@ import ProcessSection from '@/components/landing/process';
 import TechStackSection from '@/components/landing/tech-stack';
 import { AnimatedBlobs } from '@/components/landing/animated-blobs';
 import FaqSection from '@/components/landing/faq';
+import TrustedBySection from '@/components/landing/trusted-by';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+        <TrustedBySection />
         <div className="relative">
           <AnimatedBlobs />
           <ScrollAnimate>
