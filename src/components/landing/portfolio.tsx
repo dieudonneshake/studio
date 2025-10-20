@@ -8,7 +8,7 @@ export default function PortfolioSection() {
   return (
     <section id="portfolio" className="container">
       <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">Our Work</h2>
+        <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Our Work</h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
           A glimpse into the digital experiences we've crafted.
         </p>

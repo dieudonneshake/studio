@@ -35,7 +35,7 @@ export default function ProcessSection() {
   return (
     <section id="process" className="container">
       <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">Our Process</h2>
+        <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Our Process</h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
           A streamlined approach to deliver exceptional results.
         </p>

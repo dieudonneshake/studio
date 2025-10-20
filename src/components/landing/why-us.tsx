@@ -40,7 +40,7 @@ export default function WhyUsSection() {
     <section id="why-us" className="bg-muted/50 rounded-lg">
       <div className="container">
         <div className="text-center">
-          <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">Why Choose THE SEMICOLON?</h2>
+          <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Why Choose THE SEMICOLON?</h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
             Your trusted partner for premium digital solutions.
           </p>

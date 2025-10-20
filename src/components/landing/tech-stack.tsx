@@ -30,7 +30,7 @@ const TechStackSection = () => {
   return (
     <section id="tech-stack" className="container">
       <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
+        <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">
           Our Technology Stack
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
