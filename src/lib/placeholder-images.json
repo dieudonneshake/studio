@@ -37,10 +37,24 @@
     },
     {
       "id": "portfolio-6",
-      "title": "Agri-Tech SaaS Platform",
-      "description": "A feature-rich SaaS platform for project management within the agricultural sector.",
-      "imageUrl": "https://images.unsplash.com/photo-1695423180479-9944a9572535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZ3JpY3VsdHVyZSUyMGRhc2hib2FyZHxlbnwwfHx8fDE3MjE4MzY3NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "agriculture dashboard"
+      "title": "AI-Powered Code Assistant",
+      "description": "An intelligent tool for developers to streamline their workflow with AI-powered code suggestions and bug detection.",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d1469c08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8MTcyMjAwNDMwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai coding"
+    },
+    {
+      "id": "portfolio-7",
+      "title": "AI Copywriting Tool",
+      "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
+      "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8MTcyMjAwNDYwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai writing"
+    },
+    {
+      "id": "portfolio-8",
+      "title": "Real Estate Marketplace",
+      "description": "A comprehensive platform for browsing, listing, and managing real estate properties.",
+      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8MTcyMjAwNDQ0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "real estate"
     },
     {
       "id": "testimonial-1",
@@ -57,7 +71,7 @@
     {
       "id": "testimonial-3",
       "description": "Avatar of a third satisfied client.",
-      "imageUrl": "https://images.unsplash.com/photo-1724435811349-32d27f4d5806?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzYwOTQ2ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1724435811349-32d27f4d5806?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzYwOTQ2ODMwfDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "person avatar"
     }
   ]

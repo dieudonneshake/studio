@@ -14,7 +14,7 @@ export default function PortfolioSection() {
         </p>
       </div>
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {portfolioProjects.map((project, index) => (
+        {portfolioProjects.map((project) => (
           <Card key={project.id} className="overflow-hidden group transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border/60">
             <CardHeader className="p-0">
               <div className="overflow-hidden">
@@ -29,7 +29,7 @@ export default function PortfolioSection() {
               </div>
             </CardHeader>
             <CardContent className="p-6">
-              <CardTitle className="font-headline text-xl">{project.title || `Project Example ${index + 1}`}</CardTitle>
+              <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
               <CardDescription className="mt-2 text-base">{project.description}</CardDescription>
             </CardContent>
           </Card>
