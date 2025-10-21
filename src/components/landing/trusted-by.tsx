@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const partners = [
   { name: 'MINISTRY OF ICT AND INNOVATION', logo: '/MINICT.jpg' },
-  { name: 'Rwanda ICT Chamber', logo: '/ict-chamber.png' }, // Placeholder, replace with actual logo
-  { name: 'ALX Africa', logo: '/alx-logo.png' }, // Placeholder, replace with actual logo
+  { name: 'Rwanda ICT Chamber', logo: '/ictchamber.jpg' },
+  { name: 'ALX Africa', logo: '/alx.jpeg' },
   { name: '1 Million Rwandan Coders', logo: '/1mrc.jpg' },
 ];
 
