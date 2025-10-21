@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     siteName: 'THE SEMICOLON',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaG9uJTIwZGFzaGJvYXJkfGVufDB8fHx8fDE3MjI1ODk3OTR8MA&ixlib=rb-4.1.0&q=80&w=1200', // Data Analytics Dashboard Image
+        url: 'https://i.imgur.com/dYAOavo.png', // Data Analytics Dashboard Image
         width: 1200,
         height: 630,
         alt: 'A modern data analytics dashboard on a screen.',
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     title: 'THE SEMICOLON | Premium Digital Solutions',
     description: 'From stunning websites to powerful mobile apps, THE SEMICOLON delivers excellence in every line of code.',
     creator: '@TheSemicolon',
-    images: ['https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaG9uJTIwZGFzaGJvYXJkfGVufDB8fHx8fDE3MjI1ODk3OTR8MA&ixlib=rb-4.1.0&q=80&w=1200'],
+    images: ['https://i.imgur.com/dYAOavo.png'],
   },
   robots: {
     index: true,
