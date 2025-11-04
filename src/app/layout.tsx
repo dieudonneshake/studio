@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/components/providers/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Button } from '@/components/ui/button';
 import { MessageSquare } from 'lucide-react';
+import Script from 'next/script';
 
 const dmSans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'], variable: '--font-dm-sans' });
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -94,6 +95,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" />
       </head>
       <body
         className={`${dmSans.variable} ${inter.variable} font-body antialiased`}
@@ -101,6 +103,7 @@ export default function RootLayout({
         <ThemeProvider>
           {children}
           <Toaster />
+          <div id="google_translate_element" className="fixed bottom-24 right-6 z-50"></div>
           <a href="/contact" className="fixed bottom-6 right-6 z-50">
             <Button size="lg" className="rounded-full shadow-lg shadow-primary/40 flex items-center gap-2 liquid-button">
                 <MessageSquare className="h-5 w-5" />
@@ -110,6 +113,17 @@ export default function RootLayout({
             </Button>
           </a>
         </ThemeProvider>
+        <Script
+          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+          strategy="afterInteractive"
+        />
+        <Script id="google-translate" strategy="afterInteractive">
+          {`
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+          `}
+        </Script>
       </body>
     </html>
   );
