@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     siteName: 'THE SEMICOLON',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1555066931-4365d1469c98?w=1200&h=630&fit=crop&q=80',
+        url: 'https://i.imgur.com/dYAOavo.png', // Data Analytics Dashboard Image
         width: 1200,
         height: 630,
         alt: 'A screen with lines of code, representing software development.',
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     title: 'THE SEMICOLON | Premium Digital Solutions',
     description: 'From stunning websites to powerful mobile apps, THE SEMICOLON delivers excellence in every line of code.',
     creator: '@TheSemicolon',
-    images: ['https://images.unsplash.com/photo-1555066931-4365d1469c98?w=1200&h=630&fit=crop&q=80'],
+    images: ['https://i.imgur.com/dYAOavo.png'],
   },
   robots: {
     index: true,
