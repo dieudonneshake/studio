@@ -1,28 +1,12 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-slide-1",
+      "id": "hero-section",
       "headline": "We Build Digital Experiences That Matter.",
       "subheadline": "Delivering world-class software and design solutions to elevate your business in the digital landscape.",
       "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d1469c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwzfHxjb2RlfGVufDB8fHx8fDE3MDc0MjUyMjR8MA&ixlib=rb-4.0.3&q=80&w=1920",
       "imageHint": "code screen",
       "description": "A screen with lines of code, representing software development."
-    },
-    {
-      "id": "hero-slide-2",
-      "headline": "Innovation and Excellence in Every Line of Code.",
-      "subheadline": "From startups to enterprises, we craft scalable and secure solutions tailored to your unique goals.",
-      "imageUrl": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHx8MTcwNzQyNDYxN3ww&ixlib=rb-4.0.3&q=80&w=1920",
-      "imageHint": "business team",
-      "description": "A business team collaborating in a modern office."
-    },
-    {
-      "id": "hero-slide-3",
-      "headline": "Your Vision, Brought to Life with Technology.",
-      "subheadline": "Partner with us to transform your ideas into powerful digital products that captivate and perform.",
-      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjUzMzR8MA&ixlib=rb-4.0.3&q=80&w=1920",
-      "imageHint": "modern technology",
-      "description": "A modern desk setup with multiple devices, symbolizing technology."
     },
     {
       "id": "portfolio-1",
@@ -134,7 +118,7 @@
     {
       "id": "services-section",
       "description": "Image for the services section",
-      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzA3NDI1MzA0fDA&ixlib=rb-4.0.3&q=80&w=1920",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzA3NDI1MzA0fDA&ixlib-rb-4.0.3&q=80&w=1920",
       "imageHint": "professional services"
     }
   ]
