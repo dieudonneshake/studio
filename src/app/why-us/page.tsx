@@ -2,7 +2,8 @@ import WhyUsSection from "@/components/landing/why-us";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import TrustedBySection from "@/components/landing/trusted-by";
-import { Handshake, Smile, ShieldCheck, TrendingUp, Rocket, Users, Gem } from "lucide-react";
+import { Handshake, Smile } from "lucide-react";
+import PageHeader from "@/components/layout/page-header";
 
 
 export default function WhyUsPage() {
@@ -10,6 +11,11 @@ export default function WhyUsPage() {
     <>
       <Header />
       <main>
+        <PageHeader
+            title="Why Choose Us?"
+            description="Your trusted partner for premium digital solutions."
+            backgroundImage="https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw3fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjQ4ODZ8MA&ixlib=rb-4.0.3&q=80&w=1920"
+        />
         <WhyUsSection />
          <section className="bg-muted/50 rounded-lg">
             <div className="container text-center">

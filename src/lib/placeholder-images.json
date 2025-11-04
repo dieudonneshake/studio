@@ -1,6 +1,14 @@
 {
   "placeholderImages": [
     {
+      "id": "hero-section",
+      "headline": "We Build Digital Experiences That Matter.",
+      "subheadline": "Delivering world-class software and design solutions to elevate your business in the digital landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjUzMzR8MA&ixlib=rb-4.0.3&q=80&w=1920",
+      "imageHint": "computer screen code",
+      "description": "A screen with lines of code, representing software development."
+    },
+    {
       "id": "portfolio-1",
       "title": "Ride-Hailing Mobile App",
       "description": "A modern mobile application interface for a local ride-sharing service, focusing on intuitive UX.",
@@ -67,7 +75,7 @@
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ai writing",
       "techStack": [
         "React",
@@ -92,25 +100,25 @@
     {
       "id": "about-section",
       "description": "Image for the about us section",
-      "imageUrl": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fHwxNzI0NTU0NTM3fDA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHx0ZWFtfGVufDB8fHx8fDE3MDc0MjQ2MDF8MA&ixlib=rb-4.0.3&q=80&w=1920",
       "imageHint": "team meeting"
     },
     {
       "id": "why-us-section",
       "description": "Image for the why us section",
-      "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlfGVufDB8fHx8fDE3MjQ1NTY1MTB8MA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
-      "imageHint": "computer screen code"
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw4fHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fHwxNzA3NDI0ODg2fDA&ixlib=rb-4.0.3&q=80&w=1920",
+      "imageHint": "team presentation"
     },
     {
       "id": "process-section",
       "description": "Image for the process section",
-      "imageUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHdvcmtmbG93fGVufDB8fHx8fDE3MjQ1NTQ1OTF8MA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw0fHxwcm9jZXNzfGVufDB8fHx8fDE3MDc0MjUyNTl8MA&ixlib=rb-4.0.3&q=80&w=1920",
       "imageHint": "creative workflow"
     },
     {
       "id": "services-section",
       "description": "Image for the services section",
-      "imageUrl": "https://images.unsplash.com/photo-1573497491208-6b1acb260507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBzZXJ2aWNlc3xlbnwwfHx8fHwxNzI0NTU0NjE0fDA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzA3NDI1MzA0fDA&ixlib=rb-4.0.3&q=80&w=1920",
       "imageHint": "professional services"
     }
   ]

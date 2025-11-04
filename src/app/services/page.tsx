@@ -3,6 +3,7 @@ import Footer from "@/components/layout/footer";
 import TrustedBySection from "@/components/landing/trusted-by";
 import { Code, Smartphone, LayoutDashboard, ShoppingCart, Palette, PenTool } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import PageHeader from "@/components/layout/page-header";
 
 type Service = {
   icon: LucideIcon;
@@ -93,13 +94,12 @@ export default function ServicesPage() {
     <>
       <Header />
       <main>
+        <PageHeader
+            title="Our Services"
+            description="End-to-end technology and design solutions to bring your vision to life."
+            backgroundImage="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzA3NDI1MzA0fDA&ixlib=rb-4.0.3&q=80&w=1920"
+        />
         <section id="services" className="container">
-            <div className="text-center">
-                <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Our Services</h2>
-                <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-                End-to-end technology and design solutions to bring your vision to life. We specialize in a range of services designed to elevate your business in the digital landscape.
-                </p>
-            </div>
             <div className="mt-16 grid gap-12">
                 {services.map((service) => (
                     <div key={service.title} className="grid md:grid-cols-2 gap-8 items-center border-b pb-12 last:border-b-0 last:pb-0">

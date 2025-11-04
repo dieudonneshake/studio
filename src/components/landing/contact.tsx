@@ -4,12 +4,6 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 export default function ContactSection() {
   return (
     <section id="contact" className="container">
-      <div className="text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Get In Touch</h2>
-        <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Have a project in mind? We'd love to hear from you.
-        </p>
-      </div>
       <div className="mt-12 grid gap-12 md:grid-cols-2">
         <div className="space-y-8">
           <div className="flex items-start gap-4">

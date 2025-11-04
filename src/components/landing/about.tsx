@@ -8,8 +8,7 @@ export default function AboutSection() {
     <section id="about" className="container">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="mx-auto max-w-4xl text-center md:text-left">
-            <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">About Us</h2>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
+            <p className="text-lg leading-8 text-muted-foreground">
             THE SEMICOLON is a premium software and digital solutions agency with a mission to build technology that empowers businesses and enriches lives. We believe in the power of great design and robust engineering to create digital experiences that are not only beautiful but also meaningful and effective.
             </p>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">

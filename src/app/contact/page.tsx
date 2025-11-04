@@ -2,12 +2,18 @@ import ContactSection from "@/components/landing/contact";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import TrustedBySection from "@/components/landing/trusted-by";
+import PageHeader from "@/components/layout/page-header";
 
 export default function ContactPage() {
   return (
     <>
       <Header />
       <main>
+        <PageHeader 
+          title="Get In Touch"
+          description="Have a project in mind? We'd love to hear from you."
+          backgroundImage="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwyfHxjb250YWN0JTIwdXN8ZW58MHx8fHx8MTcwNzQyNTA1Nnww&ixlib=rb-4.0.3&q=80&w=1920"
+        />
         <ContactSection />
         <section className="py-0 -mt-16 md:-mt-24 relative z-0">
             <div className="container">

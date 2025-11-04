@@ -4,6 +4,7 @@ import TrustedBySection from "@/components/landing/trusted-by";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Search, PenTool, Code, Rocket } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import PageHeader from "@/components/layout/page-header";
 
 type ProcessStep = {
   icon: LucideIcon;
@@ -64,13 +65,12 @@ export default function ProcessPage() {
     <>
       <Header />
       <main>
+        <PageHeader 
+          title="Our Process"
+          description="A streamlined, transparent, and collaborative approach to deliver exceptional results on time and on budget."
+          backgroundImage="https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw0fHxwcm9jZXNzfGVufDB8fHx8fDE3MDc0MjUyNTl8MA&ixlib=rb-4.0.3&q=80&w=1920"
+        />
          <section id="process" className="container">
-            <div className="text-center">
-                <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Our Process</h2>
-                <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-                A streamlined, transparent, and collaborative approach to deliver exceptional results on time and on budget.
-                </p>
-            </div>
             <div className="mt-16 relative">
                  <div className="absolute left-1/2 top-0 bottom-0 w-px bg-border hidden md:block" />
                 {processSteps.map((step, index) => (

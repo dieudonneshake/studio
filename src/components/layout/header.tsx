@@ -30,14 +30,20 @@ export default function Header() {
     const handleScroll = () => {
       setHasScrolled(window.scrollY > 10);
     };
+    
     window.addEventListener('scroll', handleScroll);
+    // Initial check
+    handleScroll();
+    
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const isHomePage = pathname === '/';
 
   return (
     <header className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
-      hasScrolled ? "border-b border-border/40 bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60" : "bg-transparent"
+      (hasScrolled || isHomePage) ? "border-b border-border/40 bg-background/80 backdrop-blur-lg" : "bg-transparent",
     )}>
       <div className="container flex h-20 items-center">
         <div className="mr-4 flex">
@@ -48,7 +54,9 @@ export default function Header() {
               width={32} 
               height={32} 
             />
-            <span className="font-bold sm:inline-block font-headline tracking-wider text-xl">
+            <span className={cn("font-bold sm:inline-block font-headline tracking-wider text-xl",
+              "text-foreground"
+            )}>
               THE SEMICOLON
             </span>
           </a>
@@ -59,7 +67,8 @@ export default function Header() {
             <a
               key={link.label}
               href={link.href}
-              className={cn("nav-link transition-colors hover:text-foreground/80 text-foreground/60",
+              className={cn("nav-link transition-colors",
+                "text-foreground/60 hover:text-foreground/80",
                 { 'active text-primary': pathname === link.href }
               )}
             >
@@ -91,7 +100,7 @@ export default function Header() {
                       width={32} 
                       height={32} 
                     />
-                    <span className="font-bold font-headline tracking-wider text-lg">
+                    <span className="font-bold font-headline tracking-wider text-lg text-foreground">
                       THE SEMICOLON
                     </span>
                   </a>
