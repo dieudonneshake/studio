@@ -17,7 +17,6 @@ import {
   SiKotlin,
   SiShopify,
   SiWoocommerce,
-  SiAmazonaws
 } from 'react-icons/si';
 
 const techCategories = [
@@ -55,7 +54,6 @@ const techCategories = [
         title: "Deployment & Design",
         description: "For seamless deployment pipelines and world-class design.",
         technologies: [
-            { name: 'AWS', icon: SiAmazonaws },
             { name: 'Google Cloud', icon: SiGooglecloud },
             { name: 'Vercel', icon: SiVercel },
             { name: 'Figma', icon: SiFigma },
