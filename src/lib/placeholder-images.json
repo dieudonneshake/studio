@@ -4,8 +4,8 @@
       "id": "portfolio-1",
       "title": "Ride-Hailing Mobile App",
       "description": "A modern mobile application interface for a local ride-sharing service, focusing on intuitive UX.",
-      "imageUrl": "https://images.unsplash.com/photo-1690025710205-1e3557e05915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2JpbGUlMjBhcHAlMjBtYXAlMjBjYXJ8ZW58MHx8fHwxNzIyOTYyMjU4fDA&ixlib=rb-4.1.0&q=80&w=600&h=400",
-      "imageHint": "mobile app",
+      "imageUrl": "https://images.unsplash.com/photo-1581472723648-909f4851d4ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2RlfGVufDB8fHx8fDE3MjMwMDI0NTV8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "mobile app code",
       "techStack": [
         "React Native",
         "Firebase",
@@ -16,7 +16,7 @@
       "id": "portfolio-2",
       "title": "Data Analytics Dashboard",
       "description": "A business intelligence dashboard showing key metrics and trends with interactive charts and graphs.",
-      "imageUrl": "https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaG9uJTIwZGFzaGJvYXJkfGVufDB8fHx8fDE3MjI1ODk3OTR8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmR8ZW58MHx8fHx8MTcyMzAwMjQ4OXww&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "dashboard analytics",
       "techStack": [
         "React",
@@ -42,8 +42,8 @@
       "id": "portfolio-4",
       "title": "Artisan E-commerce Platform",
       "description": "An elegant e-commerce website for a fashion brand showcasing local craftsmanship.",
-      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBmYXNoaW9ufGVufDB8fHx8fDE3MjI1OTAwMjR8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
-      "imageHint": "ecommerce fashion",
+      "imageUrl": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlY29tbWVyY2V8ZW58MHx8fHx8MTcyMzAwMjYyN3ww&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "ecommerce website",
       "techStack": [
         "Next.js",
         "Shopify",
@@ -55,7 +55,7 @@
       "id": "portfolio-5",
       "title": "Financial Services Website",
       "description": "A clean and professional corporate website for a leading financial institution.",
-      "imageUrl": "https://images.unsplash.com/photo-1560472355-536de3962603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjA5Njc3NDF8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1600880292203-94269ddc0356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmaW5hbmNlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3MjMwMDI2ODl8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "finance website",
       "techStack": [
         "Next.js",
@@ -67,7 +67,7 @@
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvcHl3cml0aW5nJTIwdG9vbHxlbnwwfHx8fDE3MjI1ODk4OTh8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ai writing",
       "techStack": [
         "React",
@@ -80,8 +80,8 @@
       "id": "portfolio-8",
       "title": "Real Estate Marketplace",
       "description": "A comprehensive platform for browsing, listing, and managing real estate properties.",
-      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjIwMDQ0NDB8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
-      "imageHint": "real estate",
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8fDE3MjMwMDI4MDF8MA&ixlib_rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "real estate website",
       "techStack": [
         "Next.js",
         "PostgreSQL",
