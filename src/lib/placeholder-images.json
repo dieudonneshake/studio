@@ -4,7 +4,7 @@
       "id": "portfolio-1",
       "title": "Ride-Hailing Mobile App",
       "description": "A modern mobile application interface for a local ride-sharing service, focusing on intuitive UX.",
-      "imageUrl": "https://images.unsplash.com/photo-1581472723648-909f4851d4ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2RlfGVufDB8fHx8fDE3MjMwMDI0NTV8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RlfGVufDB8fHx8fDE3MjMwMDI0NTV8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "mobile app code",
       "techStack": [
         "React Native",
@@ -16,7 +16,7 @@
       "id": "portfolio-2",
       "title": "Data Analytics Dashboard",
       "description": "A business intelligence dashboard showing key metrics and trends with interactive charts and graphs.",
-      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmR8ZW58MHx8fHx8MTcyMzAwMjQ4OXww&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmR8ZW58MHx8fHx8MTcyMzAwMjQ4OXww&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "dashboard analytics",
       "techStack": [
         "React",
@@ -29,7 +29,7 @@
       "id": "portfolio-3",
       "title": "Ed-Tech Platform Branding",
       "description": "A complete corporate branding style guide and logo design for an educational technology hub.",
-      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZHVjYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fHx8fDE3NjA5Njc2MjV8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fHx8fDE3NjA5Njc2MjV8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "education technology",
       "techStack": [
         "Figma",
@@ -42,7 +42,7 @@
       "id": "portfolio-4",
       "title": "Artisan E-commerce Platform",
       "description": "An elegant e-commerce website for a fashion brand showcasing local craftsmanship.",
-      "imageUrl": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlY29tbWVyY2V8ZW58MHx8fHx8MTcyMzAwMjYyN3ww&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjMwMDI2MjR8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ecommerce website",
       "techStack": [
         "Next.js",
@@ -55,8 +55,8 @@
       "id": "portfolio-5",
       "title": "Financial Services Website",
       "description": "A clean and professional corporate website for a leading financial institution.",
-      "imageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaW5hbmNlJTIwd2Vic2l0ZSUyMGNvbXB1dGVyfGVufDB8fHx8fDE3MjM4MjQxODF8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
-      "imageHint": "finance website",
+      "imageUrl": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwd2Vic2l0ZSUyMGNvbXB1dGVyfGVufDB8fHx8fDE3MjM4MjQxODF8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "finance computer",
       "techStack": [
         "Next.js",
         "Contentful CMS",
@@ -98,8 +98,8 @@
     {
       "id": "why-us-section",
       "description": "Image for the why us section",
-      "imageUrl": "https://images.unsplash.com/photo-1531539209589-4b62f494c653?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbm5vdmF0aXZlJTIwdGVjaG5vbG9neXxlbnwwfHx8fHwxNzI0NTU0NTY2fDA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
-      "imageHint": "innovative technology"
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlY2hub2xvZ3l8ZW58MHx8fHx8MTcyNDU1NjQ1NHww&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageHint": "business technology"
     },
     {
       "id": "process-section",
