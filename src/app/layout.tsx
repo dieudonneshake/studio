@@ -13,6 +13,16 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 const siteUrl = 'https://the-semicolon.com';
 
+const semicolonSvg = `
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <circle cx='50' cy='30' r='12' fill='black'/>
+    <circle cx='50' cy='70' r='12' fill='black'/>
+  </svg>
+`;
+
+const semicolonIco = `data:image/svg+xml,${semicolonSvg.replace(/\n/g, '').replace(/>\s+</g, '><')}`;
+
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'THE SEMICOLON | Premium Software, Web & Digital Solutions Agency',
@@ -47,6 +57,9 @@ export const metadata: Metadata = {
   publisher: 'THE SEMICOLON',
   alternates: {
     canonical: '/',
+  },
+  icons: {
+    icon: semicolonIco,
   },
   openGraph: {
     title: 'THE SEMICOLON | Premium Software, Web & Digital Solutions Agency',
