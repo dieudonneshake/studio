@@ -14,7 +14,7 @@ export default function WhyUsPage() {
         <PageHeader
             title="Why Choose Us?"
             description="Your trusted partner for premium digital solutions."
-            backgroundImage="https://images.unsplash.com/photo-1554224155-8d044b408216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw0fHxmaW5hbmNlJTIwYW5kJTIwYnVzaW5lc3N8ZW58MHx8fHx8MTcwNzQyNTM5MHww&ixlib=rb-4.0.3&q=80&w=1920"
+            backgroundImage="https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw3fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjQ4ODZ8MA&ixlib=rb-4.0.3&q=80&w=1920"
         />
         <WhyUsSection />
          <section className="bg-muted/50 rounded-lg">

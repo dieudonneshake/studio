@@ -32,7 +32,7 @@ export default function AboutPage() {
         <PageHeader 
           title="About Us"
           description="Learn more about our mission, vision, and the values that drive us."
-          backgroundImage="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fHwxNzI0NTU0NTM3fDA&ixlib=rb-4.1.0&q=80&w=1920"
+          backgroundImage="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHx0ZWFtfGVufDB8fHx8fDE3MDc0MjQ2MDF8MA&ixlib=rb-4.0.3&q=80&w=1920"
         />
         <AboutSection />
         <section className="bg-muted/50 rounded-lg">
