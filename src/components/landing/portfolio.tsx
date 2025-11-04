@@ -18,6 +18,16 @@ export default function PortfolioSection() {
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {portfolioProjects.map((project) => (
           <Card key={project.id} className="flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border/60 overflow-hidden">
+            <div className="aspect-video overflow-hidden">
+                <Image
+                    src={project.imageUrl}
+                    alt={project.title || "Portfolio project"}
+                    width={600}
+                    height={400}
+                    className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
+                    data-ai-hint={project.imageHint}
+                />
+            </div>
             <CardHeader className="p-6">
                <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
                <CardDescription className="mt-2 text-base">{project.description}</CardDescription>

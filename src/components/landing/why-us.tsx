@@ -1,5 +1,7 @@
 import { ShieldCheck, TrendingUp, Rocket, Users, Gem } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 type Feature = {
   icon: LucideIcon;
@@ -35,27 +37,43 @@ const features: Feature[] = [
   },
 ];
 
+const whyUsImage = PlaceHolderImages.find(img => img.id === 'why-us-section');
+
 export default function WhyUsSection() {
   return (
     <section id="why-us" className="bg-muted/50 rounded-lg">
-      <div className="container">
-        <div className="text-center">
-          <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Why Choose THE SEMICOLON?</h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            Your trusted partner for premium digital solutions.
-          </p>
-        </div>
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature) => (
-            <div key={feature.title} className="flex flex-col items-center text-center">
-              <div className="mb-4 text-primary">
-                <feature.icon className="h-10 w-10" />
-              </div>
-              <h3 className="text-lg font-semibold font-headline">{feature.title}</h3>
-              <p className="mt-2 text-muted-foreground">{feature.description}</p>
+      <div className="container grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <div className="text-center md:text-left">
+            <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">Why Choose THE SEMICOLON?</h2>
+            <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+                Your trusted partner for premium digital solutions.
+            </p>
             </div>
-          ))}
+            <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+            {features.map((feature) => (
+                <div key={feature.title} className="flex flex-col items-center sm:items-start text-center sm:text-left">
+                <div className="mb-4 text-primary">
+                    <feature.icon className="h-10 w-10" />
+                </div>
+                <h3 className="text-lg font-semibold font-headline">{feature.title}</h3>
+                <p className="mt-2 text-muted-foreground">{feature.description}</p>
+                </div>
+            ))}
+            </div>
         </div>
+        {whyUsImage && (
+            <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                 <Image
+                    src={whyUsImage.imageUrl}
+                    alt={whyUsImage.description || "Why Us"}
+                    width={1200}
+                    height={800}
+                    className="object-cover w-full h-full"
+                    data-ai-hint={whyUsImage.imageHint}
+                />
+            </div>
+        )}
       </div>
     </section>
   );
