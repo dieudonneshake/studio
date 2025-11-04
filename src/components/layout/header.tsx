@@ -43,7 +43,7 @@ export default function Header() {
         <div className="mr-4 flex">
           <a href="/" className="mr-6 flex items-center space-x-2">
             <Image 
-              src="/logo.png" // You can replace this with the path to your logo
+              src="/_._20250504_153354_0000.png" // You can replace this with the path to your logo
               alt="THE SEMICOLON Logo" 
               width={32} 
               height={32} 
