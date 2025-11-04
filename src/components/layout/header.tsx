@@ -30,25 +30,41 @@ export default function Header() {
     const handleScroll = () => {
       setHasScrolled(window.scrollY > 10);
     };
-    window.addEventListener('scroll', handleScroll);
+
+    const isHomePage = pathname === '/';
+    
+    if (isHomePage) {
+        window.addEventListener('scroll', handleScroll);
+        // Initial check
+        handleScroll();
+    } else {
+        setHasScrolled(true);
+    }
+    
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [pathname]);
+
+  const isHomePage = pathname === '/';
 
   return (
     <header className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
-      hasScrolled ? "border-b border-border/40 bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60" : "bg-transparent"
+      hasScrolled ? "border-b border-border/40 bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60" : "bg-transparent",
+      !isHomePage && "bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60",
+      isHomePage && !hasScrolled && "text-white"
     )}>
       <div className="container flex h-20 items-center">
         <div className="mr-4 flex">
           <a href="/" className="mr-6 flex items-center space-x-2">
             <Image 
-              src="/logo.png" // You can replace this with the path to your logo
+              src="/logo.png"
               alt="THE SEMICOLON Logo" 
               width={32} 
               height={32} 
             />
-            <span className="font-bold sm:inline-block font-headline tracking-wider text-xl">
+            <span className={cn("font-bold sm:inline-block font-headline tracking-wider text-xl",
+              isHomePage && !hasScrolled ? "text-white" : "text-foreground"
+            )}>
               THE SEMICOLON
             </span>
           </a>
@@ -59,8 +75,10 @@ export default function Header() {
             <a
               key={link.label}
               href={link.href}
-              className={cn("nav-link transition-colors hover:text-foreground/80 text-foreground/60",
-                { 'active text-primary': pathname === link.href }
+              className={cn("nav-link transition-colors",
+                isHomePage && !hasScrolled ? "text-white/80 hover:text-white" : "text-foreground/60 hover:text-foreground/80",
+                { 'active text-primary': pathname === link.href && hasScrolled },
+                { 'active text-white': pathname === link.href && isHomePage && !hasScrolled }
               )}
             >
               {link.label}
@@ -86,12 +104,12 @@ export default function Header() {
                 <div className="flex flex-col space-y-4 pt-6">
                   <a href="/" className="mr-6 flex items-center space-x-2" onClick={() => setSheetOpen(false)}>
                      <Image 
-                      src="/logo.png" // You can replace this with the path to your logo
+                      src="/logo.png"
                       alt="THE SEMICOLON Logo" 
                       width={32} 
                       height={32} 
                     />
-                    <span className="font-bold font-headline tracking-wider text-lg">
+                    <span className="font-bold font-headline tracking-wider text-lg text-foreground">
                       THE SEMICOLON
                     </span>
                   </a>

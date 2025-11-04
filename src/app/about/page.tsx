@@ -3,6 +3,7 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import TrustedBySection from "@/components/landing/trusted-by";
 import { Gem, Target, Eye } from "lucide-react";
+import PageHeader from "@/components/layout/page-header";
 
 const values = [
   {
@@ -28,6 +29,10 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
+        <PageHeader 
+          title="About Us"
+          description="Learn more about our mission, vision, and the values that drive us."
+        />
         <AboutSection />
         <section className="bg-muted/50 rounded-lg">
             <div className="container">
