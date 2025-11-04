@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
 
@@ -17,21 +18,17 @@ export default function PortfolioSection() {
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {portfolioProjects.map((project) => (
           <Card key={project.id} className="flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-card/80 backdrop-blur-sm border-border/60 overflow-hidden">
-            <CardHeader className="p-0">
-               <div className="aspect-video overflow-hidden">
-                 <Image 
-                    src={project.imageUrl} 
-                    alt={project.title || "Portfolio project"} 
-                    width={600} 
-                    height={400}
-                    data-ai-hint={project.imageHint}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                 />
-               </div>
+            <CardHeader className="p-6">
+               <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
+               <CardDescription className="mt-2 text-base">{project.description}</CardDescription>
             </CardHeader>
-            <CardContent className="p-6 flex-1">
-              <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
-              <CardDescription className="mt-2 text-base">{project.description}</CardDescription>
+            <CardContent className="p-6 pt-0 flex-1">
+              <h4 className="mb-4 font-semibold text-foreground">Tech Stack</h4>
+              <div className="flex flex-wrap gap-2">
+                {project.techStack?.map(tech => (
+                    <Badge key={tech} variant="secondary">{tech}</Badge>
+                ))}
+              </div>
             </CardContent>
             <div className="p-6 pt-0">
                 <a href="#contact">
