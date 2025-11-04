@@ -4,25 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
-const slides = [
-  {
-    image: "https://images.unsplash.com/photo-1555066931-4365d1469c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwzfHxjb2RlfGVufDB8fHx8fDE3MDc0MjUyMjR8MA&ixlib=rb-4.0.3&q=80&w=1920",
-    headline: "We Build Digital Experiences That Matter.",
-    subheadline: "Delivering world-class software and design solutions to elevate your business in the digital landscape.",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHx8MTcwNzQyNDYxN3ww&ixlib=rb-4.0.3&q=80&w=1920",
-    headline: "Innovation and Excellence in Every Line of Code.",
-    subheadline: "From startups to enterprises, we craft scalable and secure solutions tailored to your unique goals.",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjUzMzR8MA&ixlib=rb-4.0.3&q=80&w=1920",
-    headline: "Your Vision, Brought to Life with Technology.",
-    subheadline: "Partner with us to transform your ideas into powerful digital products that captivate and perform.",
-  },
-];
-
+const slides = PlaceHolderImages.filter(img => img.id.startsWith("hero-slide-"));
 
 export default function HeroSection() {
   return (
@@ -46,11 +30,12 @@ export default function HeroSection() {
             <CarouselItem key={index} className="h-full">
               <div className="relative w-full h-full">
                 <Image
-                  src={slide.image}
-                  alt={`Slide ${index + 1}`}
+                  src={slide.imageUrl}
+                  alt={slide.description || `Slide ${index + 1}`}
                   fill
                   className="object-cover"
                   priority={index === 0}
+                  data-ai-hint={slide.imageHint}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
                  <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center text-center text-white">
