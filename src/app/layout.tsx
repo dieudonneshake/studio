@@ -103,7 +103,6 @@ export default function RootLayout({
         <ThemeProvider>
           {children}
           <Toaster />
-          <div id="google_translate_element" style={{ display: 'none' }}></div>
           <a href="/contact" className="fixed bottom-6 right-6 z-50">
             <Button size="lg" className="rounded-full shadow-lg shadow-primary/40 flex items-center gap-2 liquid-button">
                 <MessageSquare className="h-5 w-5" />
@@ -113,18 +112,6 @@ export default function RootLayout({
             </Button>
           </a>
         </ThemeProvider>
-        <Script
-          id="google-translate-script"
-          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-          strategy="afterInteractive"
-        />
-        <Script id="google-translate-init" strategy="afterInteractive">
-          {`
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
-            }
-          `}
-        </Script>
       </body>
     </html>
   );

@@ -208,14 +208,3 @@
 .nav-link.active::after {
     width: 100%;
 }
-
-/* Hide Google Translate Bar */
-.goog-te-banner-frame.skiptranslate {
-  display: none !important;
-} 
-body {
-  top: 0px !important; 
-}
-#goog-gt-tt {
-  display: none !important;
-}
