@@ -67,7 +67,7 @@
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ai writing",
       "techStack": [
         "React",
@@ -98,8 +98,8 @@
     {
       "id": "why-us-section",
       "description": "Image for the why us section",
-      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlY2hub2xvZ3l8ZW58MHx8fHx8MTcyNDU1NjQ1NHww&ixlib=rb-4.1.0&q=80&w=1200&h=800",
-      "imageHint": "business technology"
+      "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlfGVufDB8fHx8fDE3MjQ1NTY1MTB8MA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageHint": "computer screen code"
     },
     {
       "id": "process-section",
