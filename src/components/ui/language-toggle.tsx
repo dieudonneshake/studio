@@ -12,11 +12,14 @@ import { Button } from "@/components/ui/button";
 export function LanguageToggle() {
 
   const handleLanguageChange = (lang: string) => {
-    const googleTranslateElement = document.querySelector('.goog-te-combo') as HTMLSelectElement;
-    if (googleTranslateElement) {
-      googleTranslateElement.value = lang;
-      googleTranslateElement.dispatchEvent(new Event('change'));
-    }
+    const interval = setInterval(() => {
+      const googleTranslateElement = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+      if (googleTranslateElement) {
+        googleTranslateElement.value = lang;
+        googleTranslateElement.dispatchEvent(new Event('change'));
+        clearInterval(interval);
+      }
+    }, 100); 
   }
 
   return (
