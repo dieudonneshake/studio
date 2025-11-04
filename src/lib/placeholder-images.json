@@ -42,7 +42,7 @@
       "id": "portfolio-4",
       "title": "Artisan E-commerce Platform",
       "description": "An elegant e-commerce website for a fashion brand showcasing local craftsmanship.",
-      "imageUrl": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlY29tbWVyY2V8ZW58MHx8fHx8MTcyMzAwMjYyN3ww&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlY29tbWVyY2V8ZW58MHx8fHx8MTcyMzAwMjYyN3ww&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ecommerce website",
       "techStack": [
         "Next.js",
@@ -55,7 +55,7 @@
       "id": "portfolio-5",
       "title": "Financial Services Website",
       "description": "A clean and professional corporate website for a leading financial institution.",
-      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaW5hbmNlJTIwd2Vic2l0ZSUyMGNvbXB1dGVyfGVufDB8fHx8fDE3MjM3NDM5MDF8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaW5hbmNlJTIwd2Vic2l0ZSUyMGNvbXB1dGVyfGVufDB8fHx8fDE3MjM4MjQxODF8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "finance website",
       "techStack": [
         "Next.js",
@@ -67,7 +67,7 @@
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ai writing",
       "techStack": [
         "React",
@@ -88,6 +88,30 @@
         "Google Maps API",
         "Docker"
       ]
+    },
+    {
+      "id": "about-section",
+      "description": "Image for the about us section",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fHwxNzIzODMzNTc5fDA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "why-us-section",
+      "description": "Image for the why us section",
+      "imageUrl": "https://images.unsplash.com/photo-1581093452809-a1d2e8a49472?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMHF1YWxpdHl8ZW58MHx8fHx8MTcyMzgzMzc0N3ww&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageHint": "software quality"
+    },
+    {
+      "id": "process-section",
+      "description": "Image for the process section",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9jZXNzfGVufDB8fHx8fDE3MjM4MzM4MDJ8MA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageHint": "team process"
+    },
+    {
+      "id": "services-section",
+      "description": "Image for the services section",
+      "imageUrl": "https://images.unsplash.com/photo-1573496773905-f5b17e76b254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzIzODMzODMyfDA&ixlib=rb-4.1.0&q=80&w=1200&h=800",
+      "imageHint": "business services"
     }
   ]
 }
