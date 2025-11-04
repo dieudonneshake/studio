@@ -31,7 +31,7 @@ export default function HeroSection() {
               <div className="relative w-full h-full">
                 <Image
                   src={slide.imageUrl}
-                  alt={slide.description || `Slide ${index + 1}`}
+                  alt={slide.title || `Slide ${index + 1}`}
                   fill
                   className="object-cover"
                   priority={index === 0}
