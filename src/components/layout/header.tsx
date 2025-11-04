@@ -20,6 +20,18 @@ const navLinks = [
   { href: "/contact", label: "Contact" },
 ];
 
+const SemicolonLogo = () => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 100 125"
+      className="h-6 w-6 text-primary"
+      fill="currentColor"
+    >
+      <circle cx="50" cy="30" r="13" />
+      <path d="M50,60 C43.37,60 38,65.37 38,72 C38,78.63 43.37,84 50,84 C56.63,84 62,78.63 62,72 C62,65.37 56.63,60 50,60 z" />
+    </svg>
+  );
+
 export default function Header() {
   const [isSheetOpen, setSheetOpen] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -41,6 +53,7 @@ export default function Header() {
       <div className="container flex h-20 items-center">
         <div className="mr-4 flex">
           <a href="/" className="mr-6 flex items-center space-x-2">
+            <SemicolonLogo />
             <span className="font-bold sm:inline-block font-headline tracking-wider text-xl">
               THE SEMICOLON
             </span>
@@ -78,6 +91,7 @@ export default function Header() {
                 </SheetHeader>
                 <div className="flex flex-col space-y-4 pt-6">
                   <a href="/" className="mr-6 flex items-center space-x-2" onClick={() => setSheetOpen(false)}>
+                    <SemicolonLogo />
                     <span className="font-bold font-headline tracking-wider text-lg">
                       THE SEMICOLON
                     </span>
