@@ -4,7 +4,7 @@
       "id": "hero-section",
       "headline": "We Build Digital Experiences That Matter.",
       "subheadline": "Delivering world-class software and design solutions to elevate your business in the digital landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d1469c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwzfHxjb2RlfGVufDB8fHx8fDE3MDc0MjUyMjR8MA&ixlib=rb-4.0.3&q=80&w=1920",
+      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjUzMzR8MA&ixlib=rb-4.0.3&q=80&w=1920",
       "imageHint": "computer screen code",
       "description": "A screen with lines of code, representing software development."
     },
@@ -63,7 +63,7 @@
       "id": "portfolio-5",
       "title": "Financial Services Website",
       "description": "A clean and professional corporate website for a leading financial institution.",
-      "imageUrl": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwd2Vic2l0ZSUyMGNvbXB1dGVyfGVufDB8fHx8fDE3MjM4MjQxODF8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwd2Vic2l0ZSUyMGNvbXB1dGVyfGVufDB8fHx8fDE3MjM4MjQxODF8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "finance computer",
       "techStack": [
         "Next.js",
@@ -75,7 +75,7 @@
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8fDE3MjMwMDI3NDB8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ai writing",
       "techStack": [
         "React",
