@@ -50,16 +50,9 @@ const techCategories = [
             { name: 'WooCommerce', icon: SiWoocommerce },
         ]
     },
-     {
-        title: "Deployment & Design",
-        description: "For seamless deployment pipelines and world-class design.",
-        technologies: [
-            { name: 'Google Cloud', icon: SiGooglecloud },
-            { name: 'Vercel', icon: SiVercel },
-            { name: 'Figma', icon: SiFigma },
-        ]
-    },
-]
+];
+
+const deploymentPlatforms = ["AWS", "Vercel", "Megabit Cloud"];
 
 export default function TechPage() {
   return (
@@ -96,6 +89,35 @@ export default function TechPage() {
                         </div>
                     </div>
                 ))}
+                 <div>
+                    <div className="text-center">
+                        <h3 className="font-headline text-2xl font-bold">Deployment & Hosting</h3>
+                        <p className="mt-2 text-md text-muted-foreground">For seamless, scalable, and secure deployment pipelines.</p>
+                    </div>
+                    <div className="relative mt-8 flex h-full w-full flex-row items-center justify-center overflow-hidden rounded-lg border bg-background/20 py-12 md:shadow-xl">
+                        <div className="flex flex-wrap justify-center gap-x-8 gap-y-6 md:gap-x-12">
+                            {deploymentPlatforms.map((platform) => (
+                                <div key={platform} className="px-4 py-2 rounded-md border border-dashed border-primary/50 bg-primary/5">
+                                    <span className="text-lg font-semibold text-primary">{platform}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="text-center">
+                        <h3 className="font-headline text-2xl font-bold">Design</h3>
+                        <p className="mt-2 text-md text-muted-foreground">For world-class, intuitive, and beautiful user interfaces.</p>
+                    </div>
+                    <div className="relative mt-8 flex h-full w-full flex-row items-center justify-center overflow-hidden rounded-lg border bg-background/20 py-12 md:shadow-xl">
+                        <div className="flex flex-wrap justify-center gap-x-12 gap-y-10 md:gap-x-20">
+                            <div className="flex flex-col items-center gap-2 text-center w-24">
+                                <SiFigma className="h-12 w-12 text-muted-foreground transition-colors duration-300 hover:text-primary" />
+                                <span className="text-sm font-medium text-muted-foreground">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <TrustedBySection />
