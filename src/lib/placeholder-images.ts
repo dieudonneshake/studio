@@ -6,6 +6,7 @@ export type ImagePlaceholder = {
   description: string;
   imageUrl: string;
   imageHint: string;
+  techStack?: string[];
 };
 
 export const PlaceHolderImages: ImagePlaceholder[] = data.placeholderImages;

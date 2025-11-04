@@ -1,10 +1,10 @@
 import { Github, Twitter, Linkedin } from 'lucide-react';
 
 const footerLinks = [
-    { href: '#services', label: 'Services' },
-    { href: '#portfolio', label: 'Portfolio' },
-    { href: '#about', label: 'About Us' },
-    { href: '#contact', label: 'Contact' },
+    { href: '/services', label: 'Services' },
+    { href: '/portfolio', label: 'Portfolio' },
+    { href: '/about', label: 'About Us' },
+    { href: '/contact', label: 'Contact' },
 ]
 
 export default function Footer() {

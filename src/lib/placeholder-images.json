@@ -4,50 +4,90 @@
       "id": "portfolio-1",
       "title": "Ride-Hailing Mobile App",
       "description": "A modern mobile application interface for a local ride-sharing service, focusing on intuitive UX.",
-      "imageUrl": "https://images.unsplash.com/photo-1690025710205-1e3557e05915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2JpbGUlMjBhcHAlMjBtYXAlMjBjYXJ8ZW58MHx8fHwxNzIyOTYyMjU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "imageUrl": "https://images.unsplash.com/photo-1690025710205-1e3557e05915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2JpbGUlMjBhcHAlMjBtYXAlMjBjYXJ8ZW58MHx8fHwxNzIyOTYyMjU4fDA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "mobile app",
+      "techStack": [
+        "React Native",
+        "Firebase",
+        "Google Maps API"
+      ]
     },
     {
       "id": "portfolio-2",
       "title": "Data Analytics Dashboard",
       "description": "A business intelligence dashboard showing key metrics and trends with interactive charts and graphs.",
-      "imageUrl": "https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaG9uJTIwZGFzaGJvYXJkfGVufDB8fHx8fDE3MjI1ODk3OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dashboard analytics"
+      "imageUrl": "https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaG9uJTIwZGFzaGJvYXJkfGVufDB8fHx8fDE3MjI1ODk3OTR8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "dashboard analytics",
+      "techStack": [
+        "React",
+        "Recharts",
+        "Node.js",
+        "PostgreSQL"
+      ]
     },
     {
       "id": "portfolio-3",
       "title": "Ed-Tech Platform Branding",
       "description": "A complete corporate branding style guide and logo design for an educational technology hub.",
-      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZHVjYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fHx8fDE3NjA5Njc2MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "education technology"
+      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZHVjYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fHx8fDE3NjA5Njc2MjV8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "education technology",
+      "techStack": [
+        "Figma",
+        "Canva",
+        "Affinity Designer",
+        "Adobe Illustrator"
+      ]
     },
     {
       "id": "portfolio-4",
       "title": "Artisan E-commerce Platform",
       "description": "An elegant e-commerce website for a fashion brand showcasing local craftsmanship.",
-      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBmYXNoaW9ufGVufDB8fHx8fDE3MjI1OTAwMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ecommerce fashion"
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBmYXNoaW9ufGVufDB8fHx8fDE3MjI1OTAwMjR8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "ecommerce fashion",
+      "techStack": [
+        "Next.js",
+        "Shopify",
+        "Stripe",
+        "Tailwind CSS"
+      ]
     },
     {
       "id": "portfolio-5",
       "title": "Financial Services Website",
       "description": "A clean and professional corporate website for a leading financial institution.",
-      "imageUrl": "https://images.unsplash.com/photo-1560472355-536de3962603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjA5Njc3NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "finance website"
+      "imageUrl": "https://images.unsplash.com/photo-1560472355-536de3962603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjA5Njc3NDF8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "finance website",
+      "techStack": [
+        "Next.js",
+        "Contentful CMS",
+        "TypeScript"
+      ]
     },
     {
       "id": "portfolio-7",
       "title": "AI Copywriting Tool",
       "description": "A powerful AI tool that generates creative and effective marketing copy for various platforms.",
-      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvcHl3cml0aW5nJTIwdG9vbHxlbnwwfHx8fDE3MjI1ODk4OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ai writing"
+      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNvcHl3cml0aW5nJTIwdG9vbHxlbnwwfHx8fDE3MjI1ODk4OTh8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "ai writing",
+      "techStack": [
+        "React",
+        "Genkit AI",
+        "Firebase",
+        "Node.js"
+      ]
     },
     {
       "id": "portfolio-8",
       "title": "Real Estate Marketplace",
       "description": "A comprehensive platform for browsing, listing, and managing real estate properties.",
-      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjIwMDQ0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "real estate"
+      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjIwMDQ0NDB8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
+      "imageHint": "real estate",
+      "techStack": [
+        "Next.js",
+        "PostgreSQL",
+        "Google Maps API",
+        "Docker"
+      ]
     }
   ]
 }

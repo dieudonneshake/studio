@@ -8,15 +8,15 @@ import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#services", label: "Services" },
-  { href: "#why-us", label: "Why Us" },
-  { href: "#process", label: "Process" },
-  { href: "#tech-stack", label: "Tech" },
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#about", label: "About" },
-  { href: "#faq", label: "FAQ" },
-  { href: "#contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/services", label: "Services" },
+  { href: "/why-us", label: "Why Us" },
+  { href: "/process", label: "Process" },
+  { href: "/tech", label: "Tech" },
+  { href: "/portfolio", label: "Portfolio" },
+  { href: "/about", label: "About" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
@@ -38,7 +38,7 @@ export default function Header() {
     )}>
       <div className="container flex h-20 items-center">
         <div className="mr-4 flex">
-          <a href="#home" className="mr-6 flex items-center space-x-2">
+          <a href="/" className="mr-6 flex items-center space-x-2">
             <span className="font-bold sm:inline-block font-headline tracking-wider text-xl">
               THE SEMICOLON
             </span>
@@ -73,7 +73,7 @@ export default function Header() {
                   <SheetDescription className="sr-only">Main navigation links for the website.</SheetDescription>
                 </SheetHeader>
                 <div className="flex flex-col space-y-4 pt-6">
-                  <a href="#home" className="mr-6 flex items-center space-x-2" onClick={() => setSheetOpen(false)}>
+                  <a href="/" className="mr-6 flex items-center space-x-2" onClick={() => setSheetOpen(false)}>
                     <span className="font-bold font-headline tracking-wider text-lg">
                       THE SEMICOLON
                     </span>

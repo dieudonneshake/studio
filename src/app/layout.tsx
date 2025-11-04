@@ -60,7 +60,7 @@ export const metadata: Metadata = {
         url: 'https://i.imgur.com/dYAOavo.png', // Data Analytics Dashboard Image
         width: 1200,
         height: 630,
-        alt: 'A modern data analytics dashboard on a screen.',
+        alt: 'A screen with lines of code, representing software development.',
       },
     ],
     locale: 'en_US',
