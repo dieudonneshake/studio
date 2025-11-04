@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Space_Grotesk } from 'next/font/google';
+import { Inter, Sora } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
@@ -7,9 +7,9 @@ import { Button } from '@/components/ui/button';
 import { MessageSquare } from 'lucide-react';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const spaceGrotesk = Space_Grotesk({
+const sora = Sora({
   subsets: ['latin'],
-  variable: '--font-space-grotesk',
+  variable: '--font-sora',
 });
 
 const siteUrl = 'https://the-semicolon.com';
@@ -96,10 +96,10 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@400;500;700;800&display=swap" rel="stylesheet" />
       </head>
       <body
-        className={`${inter.variable} ${spaceGrotesk.variable} font-body antialiased`}
+        className={`${inter.variable} ${sora.variable} font-body antialiased`}
       >
         <ThemeProvider>
           {children}
