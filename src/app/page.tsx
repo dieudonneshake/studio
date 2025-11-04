@@ -15,10 +15,10 @@ import ContactSection from '@/components/landing/contact';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="relative flex min-h-screen flex-col bg-background">
       <Header />
-      <main className="flex-1">
-        <HeroSection />
+      <HeroSection />
+      <main className="flex-1 mt-[100vh]">
         <div className="relative">
           <AnimatedBlobs />
           <ScrollAnimate>

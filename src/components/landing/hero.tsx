@@ -12,7 +12,7 @@ export default function HeroSection() {
   return (
     <section 
       id="home" 
-      className="relative h-screen w-full overflow-hidden"
+      className="absolute top-0 left-0 h-screen w-full overflow-hidden"
     >
       <div className="relative w-full h-full">
         <Image
