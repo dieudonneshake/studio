@@ -1,12 +1,14 @@
 import type { Metadata } from 'next';
-import { Open_Sans } from 'next/font/google';
+import { DM_Sans, Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Button } from '@/components/ui/button';
 import { MessageSquare } from 'lucide-react';
 
-const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-open-sans' });
+const dmSans = DM_Sans({ subsets: ['latin'], weight: ['400', '500', '700'], variable: '--font-dm-sans' });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+
 
 const siteUrl = 'https://the-semicolon.com';
 
@@ -94,7 +96,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body
-        className={`${openSans.variable} font-body antialiased`}
+        className={`${dmSans.variable} ${inter.variable} font-body antialiased`}
       >
         <ThemeProvider>
           {children}
