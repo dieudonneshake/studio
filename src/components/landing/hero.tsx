@@ -12,7 +12,7 @@ export default function HeroSection() {
   return (
     <section 
       id="home" 
-      className="relative h-screen min-h-[700px] w-full overflow-hidden"
+      className="relative h-screen min-h-[700px] w-full overflow-hidden -mt-20"
     >
       <div className="relative w-full h-full">
         <Image
@@ -24,7 +24,7 @@ export default function HeroSection() {
           data-ai-hint={heroImage.imageHint}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center text-center text-white">
+        <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center pt-20 text-center text-white">
           <div className="container px-4">
             <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-7xl">
               {heroImage.headline}
