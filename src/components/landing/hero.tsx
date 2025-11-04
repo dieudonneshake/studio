@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
-import AnimatedGrid from "./animated-grid";
 
 export default function HeroSection() {
   return (
-    <section id="home" className="relative flex h-screen min-h-[700px] w-full items-center justify-center overflow-hidden">
-      <AnimatedGrid />
+    <section 
+      id="home" 
+      className="relative flex h-screen min-h-[700px] w-full items-center justify-center overflow-hidden bg-cover bg-center bg-[url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHx8MTcyNDU1NDUzN3ww&ixlib=rb-4.1.0&q=80&w=1920')]"
+    >
+      <div className="absolute inset-0 bg-background/60 backdrop-blur-sm"></div>
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-foreground">
         <div className="container px-4">
           <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-7xl">
