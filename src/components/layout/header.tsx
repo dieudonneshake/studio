@@ -36,16 +36,16 @@ export default function Header() {
     handleScroll();
     
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [pathname]);
+  }, []);
 
   const isHomePage = pathname === '/';
 
   return (
     <header className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
-      hasScrolled ? "border-b border-border/40 bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60" : "bg-transparent",
-      !isHomePage && "border-b border-border/40 bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60",
-       isHomePage && "bg-black/20"
+      hasScrolled ? "border-b border-border/40 bg-background/80 backdrop-blur-lg" : "bg-transparent",
+      !isHomePage && "border-b border-border/40 bg-background/80 backdrop-blur-lg",
+       (isHomePage && !hasScrolled) ? "bg-black/20" : ""
     )}>
       <div className="container flex h-20 items-center">
         <div className="mr-4 flex">
@@ -57,7 +57,7 @@ export default function Header() {
               height={32} 
             />
             <span className={cn("font-bold sm:inline-block font-headline tracking-wider text-xl",
-              isHomePage ? "text-white" : "text-foreground"
+              (isHomePage && !hasScrolled) ? "text-white" : "text-foreground"
             )}>
               THE SEMICOLON
             </span>
@@ -70,9 +70,9 @@ export default function Header() {
               key={link.label}
               href={link.href}
               className={cn("nav-link transition-colors",
-                isHomePage ? "text-white/80 hover:text-white" : "text-foreground/60 hover:text-foreground/80",
-                { 'active text-primary': pathname === link.href && !isHomePage },
-                { 'active text-white': pathname === link.href && isHomePage }
+                (isHomePage && !hasScrolled) ? "text-white/80 hover:text-white" : "text-foreground/60 hover:text-foreground/80",
+                { 'active text-primary': pathname === link.href && !(isHomePage && !hasScrolled) },
+                { 'active text-white': pathname === link.href && (isHomePage && !hasScrolled) }
               )}
             >
               {link.label}
@@ -85,7 +85,7 @@ export default function Header() {
           <div className="md:hidden">
             <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button variant="ghost" size="icon" className={cn((isHomePage && !hasScrolled) ? "text-white" : "")}>
                   <Menu className="h-6 w-6" />
                   <span className="sr-only">Toggle navigation menu</span>
                 </Button>
