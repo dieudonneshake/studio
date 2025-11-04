@@ -68,6 +68,7 @@ export default function ProcessPage() {
         <PageHeader 
           title="Our Process"
           description="A streamlined, transparent, and collaborative approach to deliver exceptional results on time and on budget."
+          backgroundImage="https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw0fHxwcm9jZXNzfGVufDB8fHx8fDE3MDc0MjUyNTl8MA&ixlib=rb-4.0.3&q=80&w=1920"
         />
          <section id="process" className="container">
             <div className="mt-16 relative">

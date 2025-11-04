@@ -1,19 +1,71 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
+
+const slides = [
+  {
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHx8MTcyNDU1NDUzN3ww&ixlib=rb-4.1.0&q=80&w=1920",
+    headline: "We Build Digital Experiences That Matter.",
+    subheadline: "Delivering world-class software and design solutions to elevate your business in the digital landscape.",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwzfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fHwxNzA3NDI0NTE2fDA&ixlib=rb-4.0.3&q=80&w=1920",
+    headline: "Innovation and Excellence in Every Line of Code.",
+    subheadline: "From startups to enterprises, we craft scalable and secure solutions tailored to your unique goals.",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1600880292203-942bb68b2438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxidXNpbmVzcyUyMHN0cmF0ZWd5fGVufDB8fHx8fDE3MDc0MjQ1NDB8MA&ixlib=rb-4.0.3&q=80&w=1920",
+    headline: "Your Vision, Brought to Life with Technology.",
+    subheadline: "Partner with us to transform your ideas into powerful digital products that captivate and perform.",
+  },
+];
+
 
 export default function HeroSection() {
   return (
     <section 
       id="home" 
-      className="relative flex h-screen min-h-[700px] w-full items-center justify-center overflow-hidden bg-cover bg-center bg-[url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHx8MTcyNDU1NDUzN3ww&ixlib=rb-4.1.0&q=80&w=1920')]"
+      className="relative h-screen min-h-[700px] w-full overflow-hidden"
     >
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-      <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
+      <Carousel
+        className="w-full h-full"
+        plugins={[
+          Autoplay({
+            delay: 5000,
+          }),
+        ]}
+        opts={{
+          loop: true,
+        }}
+      >
+        <CarouselContent className="h-full">
+          {slides.map((slide, index) => (
+            <CarouselItem key={index} className="h-full">
+              <div className="relative w-full h-full">
+                <Image
+                  src={slide.image}
+                  alt={`Slide ${index + 1}`}
+                  fill
+                  className="object-cover"
+                  priority={index === 0}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+
+      <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center text-center text-white">
         <div className="container px-4">
           <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-7xl">
-            We Build Digital Experiences That Matter.
+            {slides[0].headline}
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg text-white/80 md:text-xl">
-            Delivering world-class software and design solutions to elevate your business in the digital landscape.
+            {slides[0].subheadline}
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="#contact">

@@ -30,16 +30,10 @@ export default function Header() {
     const handleScroll = () => {
       setHasScrolled(window.scrollY > 10);
     };
-
-    const isHomePage = pathname === '/';
     
-    if (isHomePage) {
-        window.addEventListener('scroll', handleScroll);
-        // Initial check
-        handleScroll();
-    } else {
-        setHasScrolled(true);
-    }
+    window.addEventListener('scroll', handleScroll);
+    // Initial check
+    handleScroll();
     
     return () => window.removeEventListener('scroll', handleScroll);
   }, [pathname]);
@@ -50,8 +44,8 @@ export default function Header() {
     <header className={cn(
       "sticky top-0 z-50 w-full transition-all duration-300",
       hasScrolled ? "border-b border-border/40 bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60" : "bg-transparent",
-      !isHomePage && "bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60",
-      isHomePage && !hasScrolled && "text-white"
+      !isHomePage && "border-b border-border/40 bg-background/80 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60",
+       isHomePage && "bg-black/20"
     )}>
       <div className="container flex h-20 items-center">
         <div className="mr-4 flex">
@@ -63,7 +57,7 @@ export default function Header() {
               height={32} 
             />
             <span className={cn("font-bold sm:inline-block font-headline tracking-wider text-xl",
-              isHomePage && !hasScrolled ? "text-white" : "text-foreground"
+              isHomePage ? "text-white" : "text-foreground"
             )}>
               THE SEMICOLON
             </span>
@@ -76,9 +70,9 @@ export default function Header() {
               key={link.label}
               href={link.href}
               className={cn("nav-link transition-colors",
-                isHomePage && !hasScrolled ? "text-white/80 hover:text-white" : "text-foreground/60 hover:text-foreground/80",
-                { 'active text-primary': pathname === link.href && hasScrolled },
-                { 'active text-white': pathname === link.href && isHomePage && !hasScrolled }
+                isHomePage ? "text-white/80 hover:text-white" : "text-foreground/60 hover:text-foreground/80",
+                { 'active text-primary': pathname === link.href && !isHomePage },
+                { 'active text-white': pathname === link.href && isHomePage }
               )}
             >
               {link.label}

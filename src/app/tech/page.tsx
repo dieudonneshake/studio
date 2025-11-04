@@ -63,6 +63,7 @@ export default function TechPage() {
         <PageHeader
             title="Our Technology Stack"
             description="We use a curated set of modern, reliable technologies to build scalable, high-performance, and secure applications that are built to last."
+            backgroundImage="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjUzMzR8MA&ixlib=rb-4.0.3&q=80&w=1920"
         />
          <section id="tech-stack" className="container">
             <div className="mt-16 space-y-16">

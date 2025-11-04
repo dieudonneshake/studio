@@ -12,6 +12,7 @@ export default function FaqPage() {
         <PageHeader
           title="Frequently Asked Questions"
           description="Have questions? We have answers. Here are some common things clients ask us."
+          backgroundImage="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMGJhY2tncm91bmR8ZW58MHx8fHx8MTcwNzQyNTA4OXww&ixlib=rb-4.0.3&q=80&w=1920"
         />
         <FaqSection />
         <TrustedBySection />

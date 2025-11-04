@@ -97,6 +97,7 @@ export default function ServicesPage() {
         <PageHeader
             title="Our Services"
             description="End-to-end technology and design solutions to bring your vision to life."
+            backgroundImage="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzA3NDI1MzA0fDA&ixlib=rb-4.0.3&q=80&w=1920"
         />
         <section id="services" className="container">
             <div className="mt-16 grid gap-12">
