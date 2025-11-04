@@ -1,16 +1,12 @@
 import type { Metadata } from 'next';
-import { Inter, Sora } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { Button } from '@/components/ui/button';
 import { MessageSquare } from 'lucide-react';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
-const sora = Sora({
-  subsets: ['latin'],
-  variable: '--font-sora',
-});
+const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-open-sans' });
 
 const siteUrl = 'https://the-semicolon.com';
 
@@ -96,10 +92,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@400;500;700;800&display=swap" rel="stylesheet" />
       </head>
       <body
-        className={`${inter.variable} ${sora.variable} font-body antialiased`}
+        className={`${openSans.variable} font-body antialiased`}
       >
         <ThemeProvider>
           {children}
