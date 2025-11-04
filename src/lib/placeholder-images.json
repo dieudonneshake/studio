@@ -4,9 +4,9 @@
       "id": "hero-section",
       "headline": "We Build Digital Experiences That Matter.",
       "subheadline": "Delivering world-class software and design solutions to elevate your business in the digital landscape.",
-      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d1469c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwzfHxjb2RlfGVufDB8fHx8fDE3MDc0MjUyMjR8MA&ixlib=rb-4.0.3&q=80&w=1920",
-      "imageHint": "code screen",
-      "description": "A screen with lines of code, representing software development."
+      "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwdGVhbXxlbnwwfHx8fHwxNzA3NDI0ODg2fDA&ixlib=rb-4.0.3&q=80&w=1920",
+      "imageHint": "software development team",
+      "description": "A team of software developers collaborating in a modern office."
     },
     {
       "id": "portfolio-1",
@@ -37,7 +37,7 @@
       "id": "portfolio-3",
       "title": "Ed-Tech Platform Branding",
       "description": "A complete corporate branding style guide and logo design for an educational technology hub.",
-      "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fHx8fDE3NjA5Njc2MjV8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fHx8fDE3NjA5Njc2MjV8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "education technology",
       "techStack": [
         "Figma",
@@ -50,7 +50,7 @@
       "id": "portfolio-4",
       "title": "Artisan E-commerce Platform",
       "description": "An elegant e-commerce website for a fashion brand showcasing local craftsmanship.",
-      "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjMwMDI2MjR8MA&ixlib-rb-4.1.0&q=80&w=600&h=400",
+      "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8fDE3MjMwMDI2MjR8MA&ixlib=rb-4.1.0&q=80&w=600&h=400",
       "imageHint": "ecommerce website",
       "techStack": [
         "Next.js",
@@ -106,8 +106,8 @@
     {
       "id": "why-us-section",
       "description": "Image for the why us section",
-      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw3fHx0ZWNobm9sb2d5fGVufDB8fHx8fDE3MDc0MjQ4ODZ8MA&ixlib=rb-4.0.3&q=80&w=1920",
-      "imageHint": "computer screen code"
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw4fHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fHwxNzA3NDI0ODg2fDA&ixlib=rb-4.0.3&q=80&w=1920",
+      "imageHint": "team presentation"
     },
     {
       "id": "process-section",
@@ -118,7 +118,7 @@
     {
       "id": "services-section",
       "description": "Image for the services section",
-      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzA3NDI1MzA0fDA&ixlib-rb-4.0.3&q=80&w=1920",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzNTV8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlc3xlbnwwfHx8fHwxNzA3NDI1MzA0fDA&ixlib=rb-4.0.3&q=80&w=1920",
       "imageHint": "professional services"
     }
   ]
