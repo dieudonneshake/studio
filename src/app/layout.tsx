@@ -114,10 +114,11 @@ export default function RootLayout({
           </a>
         </ThemeProvider>
         <Script
+          id="google-translate-script"
           src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
           strategy="afterInteractive"
         />
-        <Script id="google-translate" strategy="afterInteractive">
+        <Script id="google-translate-init" strategy="afterInteractive">
           {`
             function googleTranslateElementInit() {
               new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
