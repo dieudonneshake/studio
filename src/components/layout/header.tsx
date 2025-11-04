@@ -86,7 +86,7 @@ export default function Header() {
                 <div className="flex flex-col space-y-4 pt-6">
                   <a href="/" className="mr-6 flex items-center space-x-2" onClick={() => setSheetOpen(false)}>
                      <Image 
-                      src="/logo.png" // You can replace this with the path to your logo
+                      src="/_._20250504_153354_0000.png" // You can replace this with the path to your logo
                       alt="THE SEMICOLON Logo" 
                       width={32} 
                       height={32} 
