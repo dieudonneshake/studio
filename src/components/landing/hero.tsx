@@ -53,38 +53,37 @@ export default function HeroSection() {
                   priority={index === 0}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+                 <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center text-center text-white">
+                    <div className="container px-4">
+                    <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-7xl">
+                        {slide.headline}
+                    </h1>
+                    <p className="mx-auto mt-6 max-w-3xl text-lg text-white/80 md:text-xl">
+                        {slide.subheadline}
+                    </p>
+                    <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                        <a href="#contact">
+                        <Button size="lg" className="font-semibold shadow-primary/40 shadow-[0_4px_20px] liquid-button bg-white text-black hover:bg-white/90">
+                            Get a Quote
+                            <span className="liquid-blob !bg-primary"></span>
+                            <span className="liquid-blob !bg-primary"></span>
+                        </Button>
+                        </a>
+                        <a href="#portfolio">
+                        <Button size="lg" variant="outline" className="font-semibold liquid-button border-white text-white hover:bg-white hover:text-black">
+                            See Our Work
+                            <span className="liquid-blob !bg-primary"></span>
+                            <span className="liquid-blob !bg-primary"></span>
+                        </Button>
+                        </a>
+                    </div>
+                    </div>
+                </div>
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
       </Carousel>
-
-      <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center text-center text-white">
-        <div className="container px-4">
-          <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-7xl">
-            {slides[0].headline}
-          </h1>
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-white/80 md:text-xl">
-            {slides[0].subheadline}
-          </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a href="#contact">
-              <Button size="lg" className="font-semibold shadow-primary/40 shadow-[0_4px_20px] liquid-button bg-white text-black hover:bg-white/90">
-                Get a Quote
-                <span className="liquid-blob !bg-primary"></span>
-                <span className="liquid-blob !bg-primary"></span>
-              </Button>
-            </a>
-            <a href="#portfolio">
-              <Button size="lg" variant="outline" className="font-semibold liquid-button border-white text-white hover:bg-white hover:text-black">
-                See Our Work
-                <span className="liquid-blob !bg-primary"></span>
-                <span className="liquid-blob !bg-primary"></span>
-              </Button>
-            </a>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
