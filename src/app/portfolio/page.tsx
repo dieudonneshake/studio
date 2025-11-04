@@ -8,7 +8,9 @@ export default function PortfolioPage() {
     <>
       <Header />
       <main>
-        <PortfolioSection />
+        <div className="pt-12">
+            <PortfolioSection />
+        </div>
         <TrustedBySection />
       </main>
       <Footer />
